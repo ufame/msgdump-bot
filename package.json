@@ -1,0 +1,54 @@
+{
+  "name": "msgdump-bot",
+  "version": "1.0.0",
+  "author": {
+    "name": "ufame",
+    "email": "mail@ufameme.ru",
+    "url": "ufameme.ru"
+  },
+  "license": "MIT",
+  "description": "Telegram bot for dumping messages with grammy",
+  "main": "dist/run.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node dist/run.js\"",
+    "start": "node dist/run.js"
+  },
+  "repository": "github:ufame/msgdump-bot",
+  "homepage": "https://github.com/ufame/msgdump-bot",
+  "bugs": {
+    "url": "https://github.com/ufame/msgdump-bot/issues"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://www.donationalerts.com/r/ufame"
+    },
+    {
+      "type": "individual",
+      "url": "https://boosty.to/ufame"
+    }
+  ],
+  "keywords": [
+    "telegram",
+    "bot",
+    "node",
+    "nodejs",
+    "dump",
+    "message",
+    "msgdump",
+    "grammy"
+  ],
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "@grammyjs/parse-mode": "^1.5.0",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "grammy": "^1.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.8.4"
+  }
+}
