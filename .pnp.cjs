@@ -28,40 +28,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@grammyjs/parse-mode", "npm:1.5.0"],\
-            ["@types/node", "npm:18.11.9"],\
+            ["@types/node", "npm:18.11.10"],\
             ["dotenv", "npm:16.0.3"],\
             ["envalid", "npm:7.3.1"],\
-            ["grammy", "npm:1.11.2"],\
+            ["grammy", "npm:1.12.0"],\
             ["tsc-watch", "virtual:5ff3aaa2829778a08af2025070bedab79ab5514c73e30bea2353f0a7ce1cb2c1cd11789d288aa259d32d8bad3b7ea237aded39229a1dc4f0c6ed98c07e50d306#npm:5.0.3"],\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
       ]],\
-      ["@grammyjs/parse-mode", [\
-        ["npm:1.5.0", {\
-          "packageLocation": "./.yarn/cache/@grammyjs-parse-mode-npm-1.5.0-5d55d30dfc-889134c134.zip/node_modules/@grammyjs/parse-mode/",\
-          "packageDependencies": [\
-            ["@grammyjs/parse-mode", "npm:1.5.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@grammyjs/types", [\
-        ["npm:2.9.1", {\
-          "packageLocation": "./.yarn/cache/@grammyjs-types-npm-2.9.1-56f782f960-d3d1e76de3.zip/node_modules/@grammyjs/types/",\
+        ["npm:2.10.2", {\
+          "packageLocation": "./.yarn/cache/@grammyjs-types-npm-2.10.2-2c64386454-7671868945.zip/node_modules/@grammyjs/types/",\
           "packageDependencies": [\
-            ["@grammyjs/types", "npm:2.9.1"]\
+            ["@grammyjs/types", "npm:2.10.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.11.9", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.9-d21dd6ec05-cc0aae109e.zip/node_modules/@types/node/",\
+        ["npm:18.11.10", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.10-cca0d46cb2-0f60cb090b.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.9"]\
+            ["@types/node", "npm:18.11.10"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -105,10 +95,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-051732d074/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
+        ["virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-a80ad1c36c/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
           "packageDependencies": [\
-            ["debug", "virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:4.3.4"],\
+            ["debug", "virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:4.3.4"],\
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", null]\
@@ -183,14 +173,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["grammy", [\
-        ["npm:1.11.2", {\
-          "packageLocation": "./.yarn/cache/grammy-npm-1.11.2-600fb22641-3ffc0745ed.zip/node_modules/grammy/",\
+        ["npm:1.12.0", {\
+          "packageLocation": "./.yarn/cache/grammy-npm-1.12.0-79cfbae0f1-8d9fad4d5f.zip/node_modules/grammy/",\
           "packageDependencies": [\
-            ["grammy", "npm:1.11.2"],\
-            ["@grammyjs/types", "npm:2.9.1"],\
+            ["grammy", "npm:1.12.0"],\
+            ["@grammyjs/types", "npm:2.10.2"],\
             ["abort-controller", "npm:3.0.0"],\
-            ["debug", "virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:4.3.4"],\
-            ["node-fetch", "virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:2.6.7"]\
+            ["debug", "virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:4.3.4"],\
+            ["node-fetch", "virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:2.6.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -227,13 +217,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["msgdump-bot", "workspace:."],\
-            ["@grammyjs/parse-mode", "npm:1.5.0"],\
-            ["@types/node", "npm:18.11.9"],\
+            ["@types/node", "npm:18.11.10"],\
             ["dotenv", "npm:16.0.3"],\
             ["envalid", "npm:7.3.1"],\
-            ["grammy", "npm:1.11.2"],\
+            ["grammy", "npm:1.12.0"],\
             ["tsc-watch", "virtual:5ff3aaa2829778a08af2025070bedab79ab5514c73e30bea2353f0a7ce1cb2c1cd11789d288aa259d32d8bad3b7ea237aded39229a1dc4f0c6ed98c07e50d306#npm:5.0.3"],\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -255,10 +244,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:2.6.7", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-5b31e66f67/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
+        ["virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:2.6.7", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-4dda0ac0a7/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:600fb2264107652d777a28d523fc0ab1a92bc2d709fa55500beab1d3b6b34cd86a3102acad423d83782450aa3f2b3cbe4929f3f13f89f1313e91c1740c934bc2#npm:2.6.7"],\
+            ["node-fetch", "virtual:79cfbae0f18ba93195c79be2eb9f4a20cc39285489acfc25977ddb4b586a114aa0192346c2e84b7844b39a6ca233cbcfd3d7e18fe146ba5e3ab8e7f4ccd617f7#npm:2.6.7"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
@@ -393,7 +382,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ps-tree", "npm:1.2.0"],\
             ["string-argv", "npm:0.1.2"],\
             ["strip-ansi", "npm:6.0.1"],\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -412,10 +401,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-80bfdb5552-301459fc3e.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-b9b216bc0d-67ca21a387.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -685,7 +674,8 @@ function areStatsEqual(a, b) {
 
 const PortablePath = {
   root: `/`,
-  dot: `.`
+  dot: `.`,
+  parent: `..`
 };
 const Filename = {
   nodeModules: `node_modules`,
@@ -4250,7 +4240,7 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
 }
 
-class URLFS extends ProxiedFS {
+class NodePathFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -4259,9 +4249,17 @@ class URLFS extends ProxiedFS {
     return path;
   }
   mapToBase(path) {
+    if (typeof path === `string`)
+      return path;
     if (path instanceof url.URL)
       return url.fileURLToPath(path);
-    return path;
+    if (Buffer.isBuffer(path)) {
+      const str = path.toString();
+      if (Buffer.byteLength(str) !== path.byteLength)
+        throw new Error(`Non-utf8 buffers are not supported at the moment. Please upvote the following issue if you encounter this error: https://github.com/yarnpkg/berry/issues/4942`);
+      return str;
+    }
+    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
   }
 }
 
@@ -4550,7 +4548,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `writeSync`
 ]);
 function patchFs(patchedFs, fakeFs) {
-  fakeFs = new URLFS(fakeFs);
+  fakeFs = new NodePathFS(fakeFs);
   const setupFn = (target, name, replacement) => {
     const orig = target[name];
     target[name] = replacement;
